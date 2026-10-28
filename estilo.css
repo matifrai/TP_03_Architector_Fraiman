@@ -1,0 +1,395 @@
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
+
+section {
+    padding: 70px 0;
+}
+
+.texto-evento {
+    max-width: 780px;
+    margin: 20px auto;
+    color: #EAEAEA;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.navbar {
+    background: linear-gradient(#283269, #4455b3);
+    padding: 18px 0;
+    border-bottom: 1px solid #4455b3;
+}
+
+.navbar-brand {
+    color: #FFB300 !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    margin: 8px;
+}
+
+.portada {
+    min-height: 560px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#0A0A0A, #283269, #7209B7);
+    padding: 75px;
+}
+
+.texto-portada {
+    animation: aparecer 0.8s ease-out;
+}
+
+.subtitulo {
+    color: #FFB300;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.portada h1 {
+    font-size: 76px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+
+.portada h1 span {
+    color: #F72585;
+}
+
+.descripcion {
+    margin: 25px;
+    font-size: 18px;
+    color: #F1FAEE;
+}
+
+.datos {
+    margin: 25px;
+    color: #FFB300;
+    font-weight: bold;
+}
+
+.imagen-portada {
+    width: 100%;
+    height: 390px;
+    border-radius: 15px;
+    border: 1px solid #7B2EFF;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #7209B7, #FF005C) !important;
+    border: none;
+    color: #FFFFFF !important;
+    border-radius: 30px;
+    padding: 4%;
+    font-weight: bold;
+}
+
+.boton-principal {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 3%;
+}
+
+.galeria {
+    background: linear-gradient(#121212, #283269);
+}
+
+.galeria h2 {
+    color: #FFB300;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.carousel {
+    max-width: 950px;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+.carousel img {
+    width: 100%;
+    height: 450px;
+}
+
+.carousel-caption {
+    background-color: #0A0A0Ab8;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.evento {
+    background: linear-gradient( #283269, #121212);
+}
+
+.seccion-alterna {
+    background: linear-gradient(#4455b3, #121212);
+}
+
+.beneficio {
+    height: 100%;
+    padding: 30px 22px;
+    border: 1px solid #4455b3;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #283269, #121212);
+}
+
+.beneficio h3 {
+    color: #F72585;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.beneficio p {
+    color: #EAEAEA;
+    margin-bottom: 0;
+}
+
+.artistas {
+    background: linear-gradient(180deg, #121212, #283269);
+}
+
+.experiencia {
+    background: linear-gradient(135deg, #283269, #121212);
+}
+
+.card {
+    height: 100%;
+    background: linear-gradient(145deg, #283269, #121212);
+    color: #FFFFFF;
+    border: 1px solid #4455b3;
+    border-radius: 15px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 280px;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card-title {
+    color: #FFB300;
+    font-size: 23px;
+}
+
+.card-text {
+    color: #EAEAEA;
+}
+
+.card .btn {
+    margin-top: 10px;
+}
+
+.experiencia .card-img-top {
+    height: 320px;
+}
+
+.entradas {
+    background: linear-gradient(180deg, #121212, #283269, #121212);
+}
+
+.ticket {
+    padding: 35px 25px;
+    background: linear-gradient(145deg, #283269, #121212);
+    border: 1px solid #7B2EFF;
+    border-radius: 18px;
+}
+
+.ticket h3 {
+    color: #FFB300;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.ticket p {
+    color: #EAEAEA;
+}
+
+.ticket h4 {
+    color: #F72585;
+    font-size: 35px;
+    margin: 25px 0;
+}
+
+.ticket.destacado {
+    background: linear-gradient(145deg, #7209B7, #283269);
+    border: 2px solid #FF005C;
+}
+
+.boton-ticket {
+    padding: 12px 35px;
+}
+
+.aclaracion {
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.informacion {
+    background: linear-gradient(135deg, #7209B7, #283269, #0A0A0A);
+    padding: 90px 20px;
+}
+
+.informacion .texto-evento {
+    color: #EAEAEA;
+}
+
+footer {
+    padding: 45px 0 20px;
+    background: linear-gradient(180deg, #0A0A0A, #121212);
+}
+
+footer h3 {
+    color: #FFB300;
+    font-size: 28px;
+}
+
+footer p {
+    color: #EAEAEA;
+}
+
+.enlaces-footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.enlaces-footer a {
+    color: #F1FAEE;
+    text-decoration: none;
+}
+
+.copyright {
+    border-top: 1px solid #4455b3;
+    padding-top: 20px;
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 50px 0;
+    }
+
+    .portada {
+        min-height: 0;
+        padding: 55px 0;
+    }
+
+    .portada h1 {
+        font-size: 55px;
+    }
+
+    .descripcion {
+        font-size: 16px;
+    }
+
+    .galeria h2,
+    .evento h2,
+    .artistas h2,
+    .experiencia h2,
+    .entradas h2,
+    .informacion h2 {
+        font-size: 28px;
+    }
+
+    .imagen-portada {
+        height: 300px;
+    }
+
+    .carousel img {
+        height: 300px;
+    }
+
+    .card-img-top,
+    .experiencia .card-img-top {
+        height: 250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .portada h1 {
+        font-size: 42px;
+    }
+
+    .subtitulo {
+        font-size: 12px;
+    }
+
+    .imagen-portada {
+        height: 230px;
+    }
+
+    .carousel img {
+        height: 230px;
+    }
+
+    .ticket {
+        padding: 25px 15px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .texto-portada {
+        animation: none;
+    }
+}
+.evento .beneficio {
+    animation: parpadeo 2s infinite;
+}
+
+@keyframes parpadeo {
+    0%, 100% {
+        border-color: #4455b3;
+        box-shadow: 0 0 5px #4455b3;
+    }
+
+    50% {
+        border-color: #F72585;
+        box-shadow: 0 0 20px #F72585;
+    }
+}
+.boton-principal {
+    animation: pulso-boton 2s infinite;
+}
+
+@keyframes pulso-boton {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 5px #FF005C;
+    }
+
+    50% {
+        transform: scale(1.08);
+        box-shadow: 0 0 20px #F72585;
+    }
+}
